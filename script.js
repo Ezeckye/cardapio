@@ -185,6 +185,8 @@ function checkRestaurantOpen(){
     return hora >= 9 && hora < 23;
 }
 
+checkRestaurantOpen();
+
 const spanItem = document.getElementById("date-span")
 const isOpen = checkRestaurantOpen();
 
